@@ -1,12 +1,35 @@
+/***********************
+NAV
+************************/
+
+.top-bar {
+  top: 0;
+  position: fixed;
+  text-align: right;
+  background: transparent;
+  color: white;
+  font-size: 1em;
+  width: 100%;
+  z-index: 5000;
+  -webkit-box-shadow: 9px 11px 44px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 9px 11px 44px -13px rgba(0,0,0,0.75);
+  box-shadow: 9px 11px 44px -13px rgba(0,0,0,0.75);
+}
+
+/***********************
+MAIN
+************************/
+
 body {
-  background-color: #3c60a8;
+  background-color: grey;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+  padding: 0;
   text-align: center;
+  margin: 0;
 }
 
 a {
@@ -18,18 +41,60 @@ a {
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+li {
+  display: inline;
+  padding: 8px 15px;
 }
 
-.wrap{
-  width: 90%;
-  margin: 0px auto;
+li:hover{
+  background-color: rgba(255,255,255, 0.1);
 }
 
-.hero{
-  background-image: url('../images/splash.jpg');
-  padding: 50px 0px;
-  height: 500px;
+/***********************
+PARALLAX
+************************/
+
+.bg-wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+.bg-section {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.static {
+  height: 70vh;
+  background: grey;
+}
+
+.bg1::after {
+  background-image: url('../images/pens.jpg');
+}
+
+.bg2::after {
+  background-image: url('../images/stars.jpg');
 }

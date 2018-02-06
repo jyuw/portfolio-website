@@ -1,0 +1,28 @@
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
+    / Use the title from a page's frontmatter if it has one
+    %title= current_page.data.title || "Jade"
+    = stylesheet_link_tag "site"
+    = javascript_include_tag "site"
+  %body
+    %nav.top-bar
+      %ul
+        %li Projects
+        %li About
+        %li Contact
+    %main.bg-wrapper
+      %section.bg-section.parallax.bg1
+        %h1 Hello. I'm Jade.
+      %section.bg-section.static
+        .wrapper.main
+          .projects
+            %h1 These are some of the projects I've built
+            - data.projects.each do |project|
+              %h4= project[:name]
+              %p= project[:description]
+      %section.bg-section.parallax.bg2
+        %h1 I like you
