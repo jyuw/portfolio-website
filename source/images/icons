@@ -1,0 +1,83 @@
+ATOM
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-atom-original"></i>
+
+BOOTSTRAP
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-bootstrap-plain-wordmark"></i>
+
+GIT
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-git-plain"></i>
+
+GITHUB
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-github-plain"></i>
+
+HTML5
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-html5-plain"></i>
+
+JAVA
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-java-plain"></i>
+
+JAVASCRIPT
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-javascript-plain"></i>
+
+JQUERY
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-jquery-plain-wordmark"></i>
+
+RUBY
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-ruby-plain"></i>
+
+SASS
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-sass-original"></i>
+
+SLACK
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-slack-plain"></i>
+
+TRAVIS
+<!-- in your header -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- in your body -->
+<i class="devicon-travis-plain-wordmark"></i>

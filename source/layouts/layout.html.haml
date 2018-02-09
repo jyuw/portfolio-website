@@ -1,28 +1,20 @@
+!!!
 %html
   %head
-    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %meta{:charset => "utf-8"}/
-    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
-    %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
-    / Use the title from a page's frontmatter if it has one
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{charset: "utf-8"}/
+    %meta{content: "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %meta{content: "width=device-width, initial-scale=1, shrink-to-fit=no", name: "viewport"}/
+    %link{href: "../assets/favicon.ico?", rel: "icon", type: "image/x-icon"}/
+    %link{href: "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css", rel: "stylesheet"}/
     %title= current_page.data.title || "Jade"
     = stylesheet_link_tag "site"
-    = javascript_include_tag "site"
+    = favicon_tag '../assets/favicon.ico'
+    = javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js", "site"
   %body
-    %nav.top-bar
-      %ul
-        %li Projects
-        %li About
-        %li Contact
-    %main.bg-wrapper
-      %section.bg-section.parallax.bg1
-        %h1 Hello. I'm Jade.
-      %section.bg-section.static
-        .wrapper.main
-          .projects
-            %h1 These are some of the projects I've built
-            - data.projects.each do |project|
-              %h4= project[:name]
-              %p= project[:description]
-      %section.bg-section.parallax.bg2
-        %h1 I like you
+    = partial 'partials/nav'
+    = yield
+
+    -#   .wrapper.main
+    -# %section.bg-section.parallax.bg4
+    -#   %h1 I live here
