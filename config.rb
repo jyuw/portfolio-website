@@ -1,6 +1,8 @@
 # Activate and configure extensions
 require 'extensions/build_cleaner.rb'
 
+activate :directory_indexes
+
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
