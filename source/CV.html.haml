@@ -1,8 +1,19 @@
 %main.bg-wrapper
   %section
     .bg-section.parallax.bg1.large-text
-      %h1 CV goes here
-
-  %section.bg-section.static.static-last
-  %footer
-    %p content & images © 2018 Jade
+      %h4
+        Gustavson School of Business graduate, ardent globetrotter,
+        diploma level pianist, avid rock climber, polyglot in training,
+        aspiring writer, web developer, lifelong learner -  life is wild.
+        What's next?
+  .bg-section.static-desk
+    .wrapper.main
+      %h1 Experiences
+      %br
+      - data.cv.each do |cv|
+        %h4= cv[:title]
+        %p= cv[:date]
+        %p= cv[:description]
+  .parallax.bg1-last
+    %footer
+      %p content & images © 2018 Jade
