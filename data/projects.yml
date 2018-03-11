@@ -1,17 +1,17 @@
-- name: First Website
-  description: Simple HTML5 site built during the Craft Academy PrepCourse
+- name: Even Steven
+  description: Bill splitting web app - Ruby on Rails
 
-- name: Virtual ATM
-  description: Exploring Ruby with a virtual ATM running in IRB
+- name: Slowfood Sinatra
+  description: Restaurant web app - Ruby on Sinatra
 
-- name: Point of Sale System
-  description: IRB program learning about classes and methods
+- name: BMI Calculator + Cooper Test
+  description: Fitness tracker mobile app - Ionic
+
+- name: CA Mailboxer
+  description: Testing legacy code - Ruby on Rails
 
 - name: Library Challenge
-  description: Building a virtual library with a checkin/checkout system
+  description: Library checkin/checkout system - IRB
 
-- name: BMI Calculator
-  description: Javascript program with web and user interface
-
-- name: Cooper Test
-  description: Program using Javascript that outputs Cooper test results
+- name: ATM Challenge
+  description: Virtual ATM - IRB
